@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Railways</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="train.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container1" id="home">
+            
+            <video width="1500" height="768" autoplay muted loop id="myVideo">
+                <source  src = "railway3.mp4" type = "video/mp4">
+            </video>
+   
+                
+                <section class="login-block">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <form class="md-float-material form-material" action="#" method="POST">
+                                    <div class="auth-box card">
+                                        <div class="card-block">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h3 class="text-center heading" >Create&nbsp;&nbsp;your&nbsp;&nbsp;account.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="form-group form-primary">
+                                             
+                                                 <input type="text" class="form-control" name="first_name" value="" placeholder="Display name" id="first_name"> 
+                                            </div>
+                
+                                            <div class="form-group form-primary">
+                                                <input type="text" class="form-control" name="email" value="" placeholder="Email" id="email">
+                                               
+                                            </div>
+                
+                                            <div class="form-group form-primary">
+                                               <input type="password" class="form-control" name="password" placeholder="Password" value="" id="password">
+                                              
+                                            </div>
+                
+                                            <div class="form-group form-primary">
+                                                <input type="password" class="form-control" name="password_confirm" placeholder="Repeat password" value="" id="password_confirm">
+                                                
+                                            </div>
+                
+                
+                                            <div class="row">
+                                                <div class="col-md-12">
+                
+                                                    <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="Signup Now">
+                                                   <!--  <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="fa fa-lock"></i> Signup Now </button> -->
+                                                </div>
+                                            </div>
+                
+                                            <div class="or-container"><div class="line-separator"></div> <div class="or-label">or</div><div class="line-separator"></div></div>
+                
+                
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                  <a style="box-sizing: border-box;" class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="https://mail.google.com/"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signup Using Google</a>
+                
+                                                </div>
+                                            </div>
+                                            <br>
+                
+                                            <p class="text-inverse text-center">Already have an account? <a href="<?= base_url() ?>auth/login" data-abc="true">Login</a></p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="sign">
+                    <h6><span class="fast-flicker"> Welcome</span> to <span class="flicker"> Indian&nbsp; </span> Railways</h6>
+                  </div>
+
+            
+
+        <div>
+            <ul id="header">
+                <li> <a class="active" href="#home"> Home </a></li>
+                <li><a href="#Live"> Live Status</a></li>
+                <li><a href="#bw"> Train b/w Station </a></li>
+                <li><a href="#pnr"> PNR Status</a></li>
+                <li style="float: right"><a href="#about"> About Us </a></li>
+                <li><i class='fa fa-user-circle' style='font-size:36px'></i></li>
+            </ul>
+        </div>
+    </body>
+
+</html>
